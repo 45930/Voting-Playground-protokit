@@ -5,8 +5,8 @@ import { log } from "@proto-kit/common";
 
 log.setLevel("ERROR");
 
-describe("Balances", () => {
-  it("should demonstrate how balances work", async () => {
+describe("Election", () => {
+  it("should demonstrate how election works", async () => {
     const totalSupply = UInt64.from(10_000);
 
     const appChain = TestingAppChain.fromRuntime({
