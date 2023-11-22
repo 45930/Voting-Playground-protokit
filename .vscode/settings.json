@@ -1,5 +1,7 @@
 {
-  "cSpell.enableFiletypes": [
-    "!typescript"
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
   ]
 }
